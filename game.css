@@ -1,0 +1,103 @@
+body {
+    color: white;
+
+}
+#question {
+    font-size: 3rem;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 25%;
+    border-radius: 4px;
+    background: rgb(red, green, blue);
+    font-size: 3rem;
+    min-width: 100rem;
+
+}
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 1.0rem 1.0rem 0 blue;
+    transform: scale(.502);
+    transform: transform 100ms;
+}
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+.correct {
+    background: linear-gradient, 32deg, green, green 100%;
+}
+.incorrect {
+    background: linear-gradient red, red 100%;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align:center;
+}
+
+#progressBar {
+    width: 25rem;
+    height: 3rem;
+    border: 0.2rem solid green;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#progressBarFull {
+    height: 100%;
+    background: yellow;
+    width: 0%;
+}
+
+
+
+
+
+
+
+
+
+.choice-container
+.choice-container:hover
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
